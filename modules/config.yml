@@ -1,0 +1,11 @@
+ami: ami1234567
+name: rhel7
+keys: prod
+instance: r5.large
+subnet: subnet-6e7f829e
+sg: sg-1a2b3c4d
+tags:
+- key: purpose
+- value: test
+device: /dev/xda
+volsize: 20
