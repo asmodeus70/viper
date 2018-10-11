@@ -10,10 +10,10 @@ import (
         "github.com/aws/aws-sdk-go-v2/aws/external"
         "github.com/aws/aws-sdk-go-v2/service/ec2"
         "github.com/spf13/viper"
-        _ "https://stash.aviva.co.uk/"
+        _ "https://github.com/asmodeus70/"
 )
 
-viper.AddRemoteProvider("git", "https://stash.aviva.co.uk/","/config/prod.yaml") // no idea what this path is yet
+viper.AddRemoteProvider("git", "https://github.com/asmodeus70/","viper/blob/master/modules/config.yml")
 viper.SetConfigType("yaml")
 err := viper.ReadRemoteConfig()
 
